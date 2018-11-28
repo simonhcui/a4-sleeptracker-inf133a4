@@ -49,8 +49,6 @@ export class FirstPage implements OnInit {
 	  var s = new OvernightSleepData(newDate1, newDate2);
 	  
 	  this.service.logOvernightData(s);
-	  alert("works");
-	  
 	  	  
 	  //let newDate = new Date(this.startTime);
 	  //console.log(newDate);
